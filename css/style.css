@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: black;
+  color: aliceblue;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex; /* Enable Flexbox on the parent */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.card {
+  display: flex; /* For internal content alignment */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 12%);
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 40px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.location {
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.list {
+  padding: 0;
+  width: 100%;
+  /* margin: auto; */
+}
+.list:last-child {
+  margin-bottom: 0;
+}
+.btn {
+  text-align: center;
+  list-style: none;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  font-weight: 600;
+}
